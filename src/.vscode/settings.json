@@ -1,0 +1,17 @@
+{
+    "python.REPL.enableREPLSmartSend": false,
+    "cmake.sourceDirectory": "/home/mario/ros2_ws/src/my_cpp_pkg",
+    "C_Cpp.errorSquiggles": "disabled",
+    "ROS2.distro": "humble",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/my_cpp_pkg/compile_commands.json",
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
