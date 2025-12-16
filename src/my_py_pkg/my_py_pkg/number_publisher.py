@@ -6,10 +6,14 @@ from example_interfaces.msg import Int64
 class Number_Publisher(Node): #create the class and inharet from node
     def __init__(self): 
         super().__init__("Number_Publisher") #call the init from the Node class
+        self.declare_parameter("number", 2)
+        self.declare_parameter("time_period",1.0)
+        self.time_=self.get_parameter("time_period").value
+
         self.publisher_=self.create_publisher(Int64,"number",10)
-        self.timer_=self.create_timer(0.5,self.Publish_number)
+        self.timer_=self.create_timer(self.time_,self.Publish_number)
         self.msg = Int64() #don't forget to treat this as class not varible
-        self.msg.data= 2
+        self.msg.data= self.get_parameter("number").value
         self.get_logger().info("Number_Publisher node is running.....")
 
     def Publish_number(self):

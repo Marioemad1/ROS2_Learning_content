@@ -7,8 +7,12 @@ class Number_Publisher : public rclcpp::Node //create a class and inharet from t
     public: //puplic
         Number_Publisher() : Node("Number_Publisher") 
         {
+            this->declare_parameter("number",2);
+            this->declare_parameter("time_period",1.0);
+            double timer_period_ = this->get_parameter("time_period").as_double();
             publisher_=this->create_publisher<example_interfaces::msg::Int64>("CPP_number",10);
-            timer_ = this->create_wall_timer(1.0s,std::bind(&Number_Publisher::publisher,this));
+            timer_ = this->create_wall_timer(std::chrono::duration<double>(timer_period_)
+                ,std::bind(&Number_Publisher::publisher,this));
             RCLCPP_INFO(this->get_logger(),"Number Publisher started...");
             
 
@@ -21,7 +25,7 @@ class Number_Publisher : public rclcpp::Node //create a class and inharet from t
     void publisher ()
     {
         auto msg_ = example_interfaces::msg::Int64();
-        msg_.data = 2;
+        msg_.data = this->get_parameter("number").as_int();
         this->publisher_->publish(msg_);
     }
 };

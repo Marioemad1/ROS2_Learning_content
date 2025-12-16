@@ -8,10 +8,12 @@ from the_robot_msgs.srv import LedState
 class LED_Panal(Node): #create the class and inharet from node
     def __init__(self): 
         super().__init__("LED_Panal") #call the init from the Node class 
+        self.declare_parameter("led_state",[False,False,False])
         self.Leds_server_=self.create_service(LedState,"set_led",self.callback_led_service)
         self.led_state_publisher_=self.create_publisher(LedStateM,"led_state",10)
         self.timer_=self.create_timer(0.5,self.callback_publisher)
         self.responce_= LedState.Response()
+        self.responce_.response=self.get_parameter("led_state").value
         self.get_logger().info("The led server is running....")
 
 

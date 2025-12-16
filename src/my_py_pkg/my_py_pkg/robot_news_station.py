@@ -6,8 +6,9 @@ from example_interfaces.msg import String
 class RobotNewsStation(Node): 
     def __init__(self): 
         super().__init__("robot_news_station") 
+        self.declare_parameter("robot_name","C3PO")
         self.publisher_ = self.create_publisher(String, "robot_news", 10 )#this is the function that creates a publisher 
-        self.robot_name_="C3PO"
+        self.robot_name_=self.get_parameter("robot_name").value
         self.counter_=0
         #this function take (data of tha msg , name of the channal ,and a Q size like a connection protocol protect in the big msgs)              
         self.timer_=self.create_timer(0.5,self.publish_news)

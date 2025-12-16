@@ -39,6 +39,12 @@ ament_target_dependencies(add_two_int_clinet rclcpp example_interfaces)
 add_executable(hardware_robot_states src/hardware_robot_states.cpp)
 ament_target_dependencies(hardware_robot_states rclcpp the_robot_msgs)
 
+add_executable(battery src/battery.cpp)
+ament_target_dependencies(battery rclcpp the_robot_msgs)
+
+add_executable(led_Panal src/led_Panal.cpp)
+ament_target_dependencies(led_Panal rclcpp the_robot_msgs)
+
 
 
 install(TARGETS 
@@ -52,6 +58,8 @@ add_two_ints_serv
 add_two_int_clinet_no_oop
 add_two_int_clinet
 hardware_robot_states
+battery
+led_Panal
 DESTINATION lib/${PROJECT_NAME}
 
 )
