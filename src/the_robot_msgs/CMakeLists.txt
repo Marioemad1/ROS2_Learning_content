@@ -13,9 +13,11 @@ find_package(rosidl_default_generators REQUIRED)
 # Generate custom message interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HardwareStatus.msg"
+  "msg/LedStateM.msg"
+  "msg/LiveTurtuiles.msg"
   "srv/ComputeRectangleArea.srv"
   "srv/LedState.srv"
-  "msg/LedStateM.msg"
+  
  )
 ament_export_dependencies(rosidl_default_runtime)
 

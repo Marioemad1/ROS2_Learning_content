@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             "turtule_controller = turtul_cath_them_all.turtule_controller:main",
+            "create_target = turtul_cath_them_all.target_creater:main",
         ],
     },
 )
