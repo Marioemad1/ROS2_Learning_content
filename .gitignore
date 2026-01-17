@@ -1,10 +1,9 @@
-build/
-install/
-log/
-.colcon/
-*.pyc
-__pycache__/
+# Ignore everything
+*
 
-build/
-install/
-log/
+# But don't ignore src folder
+!src/
+!src/**
+
+# Don't ignore .gitignore itself
+!.gitignore
