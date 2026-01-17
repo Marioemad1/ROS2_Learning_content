@@ -1,9 +1,10 @@
-# Ignore everything
-*
+# VS Code files
+.vscode/
+*.db
 
-# But don't ignore src folder
-!src/
-!src/**
+# ROS2 build artifacts (you don't want these either)
+build/
+install/
+log/
 
-# Don't ignore .gitignore itself
-!.gitignore
+# Only track src folder
