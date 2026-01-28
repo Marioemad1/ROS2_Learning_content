@@ -124,7 +124,7 @@ cpp_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cp
 cpp_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 cpp_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 cpp_node: /opt/ros/humble/lib/librmw.so
-cpp_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+cpp_node: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 cpp_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
 cpp_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 cpp_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so

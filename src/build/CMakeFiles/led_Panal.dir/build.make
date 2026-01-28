@@ -142,7 +142,7 @@ led_Panal: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 led_Panal: /opt/ros/humble/lib/libtracetools.so
 led_Panal: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 led_Panal: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-led_Panal: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+led_Panal: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 led_Panal: /opt/ros/humble/lib/librmw.so
 led_Panal: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 led_Panal: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so

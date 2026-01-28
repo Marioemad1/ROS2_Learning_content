@@ -143,7 +143,7 @@ add_two_int_clinet: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastr
 add_two_int_clinet: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 add_two_int_clinet: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
 add_two_int_clinet: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-add_two_int_clinet: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+add_two_int_clinet: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 add_two_int_clinet: /opt/ros/humble/lib/librmw.so
 add_two_int_clinet: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
 add_two_int_clinet: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so

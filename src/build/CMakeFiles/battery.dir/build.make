@@ -142,7 +142,7 @@ battery: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 battery: /opt/ros/humble/lib/libtracetools.so
 battery: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 battery: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-battery: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+battery: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 battery: /opt/ros/humble/lib/librmw.so
 battery: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 battery: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so

@@ -143,7 +143,7 @@ number_publisher: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtp
 number_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 number_publisher: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
 number_publisher: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-number_publisher: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+number_publisher: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 number_publisher: /opt/ros/humble/lib/librmw.so
 number_publisher: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
 number_publisher: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
